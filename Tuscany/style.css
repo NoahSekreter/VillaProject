@@ -14,6 +14,12 @@ h3 {
     font-size: 20px;
 }
 
+.fire {
+    color: #ffc9df;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .btn {
     border-radius: 0;
     background-color: #de0a00;
@@ -74,6 +80,10 @@ header {
     border-radius: 0;
 }
 
+.navbar a:hover {
+    color: #de0a00;
+}
+
 .navbar a {
     color: #ffc9df;
 }
@@ -94,21 +104,16 @@ header {
     margin-top: 10px;
 }
 
-.loc-img {
-    
-}
-
 .inverted {
     color: #FCC;
 }
 
-.inverted .loc-img {
-    /*text-align: right;*/
+.col-text {
+    text-align: center;
 }
 
-.col-text {
-    /*background-color: #FCC;*/
-    text-align: center;
+.col-text h2 {
+    margin-top: 15%;
 }
 
 .col-text .btn {
@@ -136,10 +141,6 @@ header {
     margin-top: 110px;
 }
 
-.col-text h2 {
-    margin-top: 60px;
-}
-
 .centered {
     position: relative;
     width: 100%;
@@ -155,7 +156,8 @@ header {
 }
 
 .carousel-content div {
-    margin-left: 30%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #first {
@@ -184,7 +186,6 @@ header {
 
 .contact-list {
     padding-top: 40px;
-    
 }
 
 .contact-list li {
@@ -194,6 +195,11 @@ header {
 
 .glyphicon {
     margin-right: 10px;
+}
+
+.glyphicon-menu-hamburger {
+    font-size: 20px;
+    color: #ffc9df;
 }
 
 form .btn {
