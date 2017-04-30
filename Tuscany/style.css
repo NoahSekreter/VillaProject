@@ -20,6 +20,10 @@ h3 {
     color: #ffeffd;
 }
 
+.btn:hover {
+    color: #ffeffd;
+}
+
 .inverted .btn {
     background-color: #ffc9df;
     color: #de0a00;
@@ -142,16 +146,16 @@ header {
     height: auto;
 }
 
-.carousel {
-    height: 100px;
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+    text-align: center;
+    height: 120px;
 }
 
-.carousel-caption {
-    color: black;
-}
-
-.carousel-indicators {
-    bottom: 0;
+.carousel-content div {
+    margin-left: 30%;
 }
 
 #first {
