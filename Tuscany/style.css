@@ -96,6 +96,10 @@ header {
     padding-left: 30px;
 }
 
+.navbar-header a:hover{
+    color: #ffeffd;
+}
+
 .locations .row {
     padding: 50px;
 }
